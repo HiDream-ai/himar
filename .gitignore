@@ -1,0 +1,8 @@
+Hi-MAR-B
+himar_*_test
+__pycache__
+*/__pycache__
+*.pb
+*.txt
+*.npz
+pretrained_models
