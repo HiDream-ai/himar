@@ -60,9 +60,9 @@ You can download our pre-trained Hi-MAR models directly from the links provided 
 
 | Models                                                       | FID-50K | Inception Score | #params |
 | ------------------------------------------------------------ | ------- | --------------- | ------- |
-| [Hi-MAR-B](https://huggingface.co/HiDream-ai/Hi-MAR/blob/main/Hi-MAR-B/checkpoint-last.pt) | 1.93    | 293.0           | 244M    |
-| [Hi-MAR-L](https://huggingface.co/HiDream-ai/Hi-MAR/blob/main/Hi-MAR-L/checkpoint-last.pt) | 1.66    | 322.3           | 529M    |
-| [Hi-MAR-H](https://huggingface.co/HiDream-ai/Hi-MAR/blob/main/Hi-MAR-H/checkpoint-last.pt) | 1.52    | 322.78          | 1090M   |
+| [Hi-MAR-B](https://huggingface.co/HiDream-ai/Hi-MAR/blob/main/Hi-MAR-B/checkpoint-last.pth) | 1.93    | 293.0           | 244M    |
+| [Hi-MAR-L](https://huggingface.co/HiDream-ai/Hi-MAR/blob/main/Hi-MAR-L/checkpoint-last.pth) | 1.66    | 322.3           | 529M    |
+| [Hi-MAR-H](https://huggingface.co/HiDream-ai/Hi-MAR/blob/main/Hi-MAR-H/checkpoint-last.pth) | 1.52    | 322.78          | 1090M   |
 
 </details>
 
