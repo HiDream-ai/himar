@@ -1,7 +1,7 @@
 # Hi-MAR
 
 <p align="center">
-    <img src="assets/show_imgs.png" width="400"/>
+    <img src="assets/show_imgs.png" width="800"/>
 <p>
 
 <p align="center">
