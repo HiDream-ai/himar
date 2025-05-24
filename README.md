@@ -78,13 +78,13 @@ torchrun --nproc_per_node=8 --nnodes=1 main_himar.py --img_size 256 --vae_path /
 Evaluate Hi-MAR-L on ImageNet256x256:
 
 ```
-torchrun --nproc_per_node=8 --nnodes=1 main_himar.py --img_size 256 --vae_path /path/to/vae --vae_embed_dim 16 --vae_stride 16 --patch_size 1 --model himar_base --diffloss_d 8 --diffloss_w 1280 --output_dir ./himar_large_test --resume /path/to/Hi-MAR-L  --num_images 50000 --num_iter 4 --cfg 3.5 --re_cfg 3.5 --cfg_schedule linear --cond_scale 8 --cond_dim 16 --two_diffloss --global_dm --gdm_d 8 --gdm_w 512 --eval_bsz 256 --load_epoch -1 --head 8 --ratio 4 --cos --evaluate
+torchrun --nproc_per_node=8 --nnodes=1 main_himar.py --img_size 256 --vae_path /path/to/vae --vae_embed_dim 16 --vae_stride 16 --patch_size 1 --model himar_large --diffloss_d 8 --diffloss_w 1280 --output_dir ./himar_large_test --resume /path/to/Hi-MAR-L  --num_images 50000 --num_iter 4 --cfg 3.5 --re_cfg 3.5 --cfg_schedule linear --cond_scale 8 --cond_dim 16 --two_diffloss --global_dm --gdm_d 8 --gdm_w 512 --eval_bsz 256 --load_epoch -1 --head 8 --ratio 4 --cos --evaluate
 ```
 
 Evaluate Hi-MAR-H on ImageNet256x256:
 
 ```
-torchrun --nproc_per_node=8 --nnodes=1 main_himar.py --img_size 256 --vae_path /path/to/vae --vae_embed_dim 16 --vae_stride 16 --patch_size 1 --model himar_base --diffloss_d 12 --diffloss_w 1536 --output_dir ./himar_huge_test --resume /path/to/Hi-MAR-H  --num_images 50000 --num_iter 12 --cfg 3.2 --re_cfg 5.5 --cfg_schedule linear --cond_scale 8 --cond_dim 16 --two_diffloss --global_dm --gdm_d 12 --gdm_w 768 --eval_bsz 256 --load_epoch -1 --head 12 --ratio 4 --cos --evaluate
+torchrun --nproc_per_node=8 --nnodes=1 main_himar.py --img_size 256 --vae_path /path/to/vae --vae_embed_dim 16 --vae_stride 16 --patch_size 1 --model himar_huge --diffloss_d 12 --diffloss_w 1536 --output_dir ./himar_huge_test --resume /path/to/Hi-MAR-H  --num_images 50000 --num_iter 12 --cfg 3.2 --re_cfg 5.5 --cfg_schedule linear --cond_scale 8 --cond_dim 16 --two_diffloss --global_dm --gdm_d 12 --gdm_w 768 --eval_bsz 256 --load_epoch -1 --head 12 --ratio 4 --cos --evaluate
 ```
 
 </details>
