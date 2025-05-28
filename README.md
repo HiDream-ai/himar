@@ -5,7 +5,7 @@
 <p>
 
 <p align="center">
-    🖥️ <a href="https://github.com/HiDream-ai/himar">GitHub</a> &nbsp&nbsp ｜ &nbsp&nbsp  🌐 <a href="https://Tom-zgt.github.io/Hi-MAR-page/"><b>Project Page</b></a> &nbsp&nbsp  | &nbsp&nbsp🤗 <a href="https://huggingface.co/HiDream-ai/Hi-MAR/tree/main">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="">Paper </a> &nbsp&nbsp | &nbsp&nbsp 📖 <a href="">PDF</a> &nbsp&nbsp 
+    🖥️ <a href="https://github.com/HiDream-ai/himar">GitHub</a> &nbsp&nbsp ｜ &nbsp&nbsp  🌐 <a href="https://Tom-zgt.github.io/Hi-MAR-page/"><b>Project Page</b></a> &nbsp&nbsp  | &nbsp&nbsp🤗 <a href="https://huggingface.co/HiDream-ai/Hi-MAR/tree/main">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://arxiv.org/pdf/2505.20288">Paper </a> &nbsp&nbsp | &nbsp&nbsp 📖 <a href="https://arxiv.org/pdf/2505.20288">PDF</a> &nbsp&nbsp 
 <br>
 
 [**Hierarchical Masked Autoregressive Models with Low-Resolution Token Pivots**](https://Tom-zgt.github.io/Hi-MAR-page/) (ICML 2025)<be>
