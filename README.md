@@ -95,7 +95,15 @@ torchrun --nproc_per_node=8 --nnodes=1 main_himar.py --img_size 256 --vae_path /
 If you find our work helpful for your research, please consider giving a star⭐ on this repository and citing our work.
 
 ```
-
+@misc{zheng2025hierarchicalmaskedautoregressivemodels,
+      title={Hierarchical Masked Autoregressive Models with Low-Resolution Token Pivots}, 
+      author={Guangting Zheng and Yehao Li and Yingwei Pan and Jiajun Deng and Ting Yao and Yanyong Zhang and Tao Mei},
+      year={2025},
+      eprint={2505.20288},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.20288}, 
+}
 ```
 
 
